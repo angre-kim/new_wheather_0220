@@ -14,6 +14,7 @@ dependencies:
   geolocator: ^5.2.1
   http: ^0.12.0+4
   convert: ^2.1.1
+  flutter_spinkit: ^4.1.1+1
 
 dev_dependencies:
   flutter_test:
