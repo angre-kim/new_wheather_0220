@@ -21,3 +21,22 @@ const kConditionTextStyle = TextStyle(
 
 const apiKey = '83b6363fa422a666a28b75dea9ebc7a6';
 
+const kTextfieldInputDecoration = InputDecoration(
+  filled: true,
+  fillColor: Colors.white,
+  icon: Icon(
+    Icons.location_city,
+    color: Colors.white,
+  ),
+  hintText: '도시를 입력하세요',
+  hintStyle: TextStyle(
+    color: Colors.grey,
+  ),
+  border: OutlineInputBorder(
+    borderRadius: BorderRadius.all(
+      Radius.circular(10.0),
+    ),
+  ),
+);
+
+const openWeatherMapURL = 'https://api.openweathermap.org/data/2.5/weather';
