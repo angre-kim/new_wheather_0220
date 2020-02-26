@@ -49,13 +49,13 @@ class WeatherModel {
 
   String getMessage(int temp) {
     if (temp > 25) {
-      return 'It\'s 🍦 time';
+      return '🍦 먹기 딱 좋은  날씨이네요';
     } else if (temp > 20) {
-      return 'Time for shorts and 👕';
+      return '👕 티셔츠를 입어도 좋아요';
     } else if (temp < 10) {
-      return 'You\'ll need 🧣 and 🧤';
+      return '쌀쌀해요';
     } else {
-      return 'Bring a 🧥 just in case';
+      return '추워요';
     }
   }
 }
